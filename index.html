@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nail Art</title>
+  <link rel="icon" href="./images/logo.png" type="image/icon type">
+  <link rel="stylesheet" href="./css/aos.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/bootstrap-utilities.css">
+  <script src="./js/bootstrap.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <section class="newnavbar bg-dark">
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" class="w-100 h-80px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"><i
+                  class="bi bi-house-door"></i>&nbsp;Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./htmlpages/gallery.html"><i class="bi bi-images"></i>&nbsp;Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./htmlpages/ContactUs.html"><i class="bi bi-envelope"></i>&nbsp;Contact Us</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="./htmlpages/aboutUs.html"><i class="bi bi-info"></i>&nbsp;About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./htmlpages/GetAppointment.html"><i class="bi bi-calendar"></i>&nbsp;Get Appointment</a>
+          </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-list-stars"></i>&nbsp;Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./htmlpages/flowers.html">Flowers</a></li>
+                <li><a class="dropdown-item" href="./htmlpages/fruits.html">Fruits</a></li>
+                <li><a class="dropdown-item" href="./htmlpages/geometrics.html">Geometrics</a></li>
+                <li><a class="dropdown-item" href="./htmlpages/glitter.html">Glitter</a></li>
+                <li><a class="dropdown-item" href="./htmlpages/gradient.html">Gradient</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    
+
+        <button type="button" class=" modalbutton border-pink text-white rounded-circle" data-toggle="modal"
+          data-target="#myModal"><i class="bi bi-search"></i></button>
+
+        <!-- Modal Start -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+              </div>
+              <div class="modal-body">
+                <p>This is a large modal.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal End -->
+      </div>
+    </nav>
+  </section>
+  <!-- Navbar End -->
+  <hr>
+
+
+  
+  <!-- Slider Start -->
+  <section class="slide">
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-12">
+        <div id="carouselExampleIndicators" class="w-100 carousel slide carousel-fade "
+          data-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner w-100">
+            <div class="carousel-item active">
+              <img src="./images/gallery(4).jpg" class="w-100 opacity-75" alt="...">
+              <div class="carousel-caption">
+                <h1 class="animated fadeInRight  caption1 position-absolute white-space-nowrap fw-bolder"
+                  style="animation-delay:0.1s">FASHION</h1>
+                <h2 class="caption2 animated fadeInLeft position-absolute fw-bolder" style="animation-delay: 0.2s;">IS
+                </h2>
+                <h3 class="caption3 animated fadeInRight  position-absolute fw-bolder" style="animation-delay: 0.1s;">
+                  EVERYTHING</h3>
+                <a href=""
+                  class="caption4 animated fadeInDown position-absolute text-decoration-none white-space-nowrap"
+                  style="animation-delay: 0.3s;">Get Appointment</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/gallery(3).jpg" class="w-100 opacity-75" alt="...">
+              <div class="carousel-caption">
+                <h1 class="animated fadeInUp  caption7 position-absolute white-space-nowrap fw-bolder"
+                  style="animation-delay: 0.2s;">AWESOME</h1>
+                <h2 class="caption6 animated fadeInLeft position-absolute fw-bolder" style="animation-delay: 0.3s;">
+                  AMAZING</h2>
+                <h3 class="caption8 animated fadeInDown position-absolute white-space-nowrap fw-bolder"
+                  style="animation-delay: 0.4s;">DESIGNS</h3>
+                <a href="" class="caption10 position-absolute text-decoration-none white-space-nowrap">Get Appointment</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/gallery(1).PNG" class="w-100 opacity-75" alt="...">
+              <div class="carousel-caption">
+                <h1 class="animated fadeInUp  caption12  position-absolute white-space-nowrap fw-bolder"
+                  style="animation-delay: 0.2s;">NEED DESIGNS?</h1>
+                <h2 class="caption11 fadeInDown position-absolute white-space-nowrap fw-bolder"
+                  style="animation-delay: 0.3s;">WE HAVE</h2>
+                <h3 class="caption3 fadeInLeft position-absolute fw-bolder" style="animation-delay: 0.4s;">DESIGNS</h3>
+                <a href="" class="caption4 position-absolute text-decoration-none white-space-nowrap">Get Appointment</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- Slider End -->
+
+      <!-- Categories Start -->
+      <div class="col-md-3 col-6 container text-center">
+        <div class="titles overflow-hidden bg-dark w-100">
+          <div class="back">
+            <h1 id="text" class="text-center white-space-nowrap">FLOWERS</h1>
+            <a href="" id="text2" class="position-absolute text-decoration-none rounded">READ MORE</a>
+          </div>
+        </div>
+
+        <div class="titles overflow-hidden bg-dark w-100">
+          <div class="back3">
+            <h1 id="text" class="text-center white-space-nowrap">FRUITS</h1>
+            <a href="" id="text4" class="position-absolute text-decoration-none rounded">READ MORE</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-3 col-6 container" >
+        <div class="titles2 overflow-hidden bg-dark w-100">
+          <div class="back3 text-center">
+            <h1 id="text" class="text-center white-space-nowrap">GLITTERS</h1>
+            <a href="" id="text6" class="position-absolute text-decoration-none rounded">READ MORE</a>
+          </div>
+        </div>
+
+        <div class="titles2 overflow-hidden bg-dark w-100">
+          <div class="back">
+            <h1 id="text" class="text-center white-space-nowrap">GEOMETRIC</h1>
+            <a href="" id="text5" class="position-absolute text-decoration-none rounded">READ MORE</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+  <!-- Categories End -->
+
+  <!-- Nail Care Start -->
+  <div class="container-fluid">
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h1 class="h1">NAIL CARE</h1>
+        <p class="fs-5">
+          Nail care, the maintenance of the fingernails and toenails, is important for health as well as cosmetic
+          reasons. Good nail care can prevent fungus infections of the nail, painful ingrown fingernails and toenails,
+          and infections of the skin in the hands and feet. Nail care is especially important for those with diabetes,
+          as infections of the feet in particular are dangerous. To care for your nails, keep them short and trimmed (in
+          the shape of the fingertip for fingernails; straight across for toenails); keep your hands and feet and their
+          nails clean (change your socks daily).
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="./images/NailCare.jpg" class="w-100 img" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- Nail Care End -->
+
+  <!-- Manicure Start -->
+  <div class="container-fluid">
+    <div class="row mt-5">
+      <div class="col-md-6 text-center">
+        <img src="./images/manicure.jpg" class="w-100 img" height="455px" alt="">
+      </div>
+      <div class="col-md-6">
+        <h1 class="h1">MANICURE</h1>
+        <p class="fs-5">
+          The English word manicure comes from the French word manucure, meaning care of the hands, which in turn
+          originates from the Latin words manus, for hand, and cura, for care. A manicure is a mostly cosmetic beauty treatment for the fingernails and hands performed at home or in a nail
+          salon. A manicure usually consists of filing and shaping the free edge of nails, pushing and clipping (with a
+          cuticle pusher and cuticle nippers) any nonliving tissue (but limited to the cuticle and hangnails),
+          treatments with various liquids, massage of the hand.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Manicure End -->
+
+  <!-- Pedicure Start -->
+  <div class="container-fluid">
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h1 class="h1">PEDICURE</h1>
+        <p class="fs-5">
+          The word pedicure is derived from the Latin words pedis, which means "of the foot", and cura, which means
+          "care". Getting a pedicure will not only make you feel good but it will also help you practice good hygiene. A
+          pedicure is a form of treatment for your feet that involves cutting and clipping your toenails for a clean,
+          healthy, and happy feet. It helps protect and prevent your nails from getting diseases. This kind of treatment
+          also includes polishing your toenails, exfoliating dead skin cells, moisturizing your skin.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="./images/pedicure.PNG" class="w-100 img" height="455px" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- Pedicure End -->
+
+ <!-- About Us Start -->
+<section class="banner mt-5">
+  <div class="container">
+      <h1 class="position-absolute text-white">THANKS FOR VISITING</h1>
+      <h3 class="position-absolute text-white">Read more about Nail Art by clicking below!</h3>
+      <a href="" class="bg-pink text-white position-absolute text-decoration-none">Read More </a>
+  </div>
+</section>
+<!-- About Us End -->
+
+<!-- Footer Start -->
+<footer class="bg-dark h-100 text-pink">
+  <div class="conatiner-fluid">
+  <div class="row">
+      <div class="col-md-3">
+          <h4>Nail Art</h4>
+          <ul>
+              <li>
+                  <a href="" class="text-decoration-none">Flower Designs</a>
+              </li>
+              <li>
+                  <a href="" class="text-decoration-none">Fruit Designs</a>
+              </li>
+              <li>
+                  <a href="" class="text-decoration-none">Glitter Designs</a>
+              </li>
+              <li>
+                  <a href="" class="text-decoration-none">Geometric Designs</a>
+              </li>
+          </ul>
+          <div class="logos">
+              <a href="" class="text-decoration-none d-inline-block bg-pink white-space-nowrap rounded-3"><i class="bi bi-facebook"></i></a>
+              <a href="" class="text-decoration-none d-inline-block bg-pink white-space-nowrap rounded-3"><i class="bi bi-instagram"></i></a> 
+              <a href="" class="text-decoration-none d-inline-block bg-pink white-space-nowrap rounded-3"><i class="bi bi-linkedin"></i></a> 
+              <a href="" class="text-decoration-none d-inline-block bg-pink white-space-nowrap rounded-3"><i class="bi bi-twitter"></i></a>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <h4>About</h4>
+          <ul>
+              <li>
+                  <a href="" class="text-decoration-none">About website</a>
+              </li>
+              <li>
+                  <a href="" class="text-decoration-none">Payment method</a>
+              </li>
+              <li>
+                  <a href="" class="text-decoration-none">Info</a>
+              </li>
+          </ul>
+      </div>
+      <div class="col-md-3">
+          <h4>Contact</h4>
+          <ul>
+              <li>
+                  <span>Email:</span> <a href="" class="text-decoration-none">abc@aptechgdn.net</a>
+              </li>
+              <li>
+                  <span>Address</span> <a href="" class="text-decoration-none">Aptech Garden Center</a>
+              </li>
+              <li>
+                  <span>Phone:</span><a href="" class="text-decoration-none">+92 321-0987654</a>
+              </li>
+          </ul>
+      </div>
+      <div class="col-md-3">
+          <h4 class="text-center">Thanks For Visiting</h4>
+          <br>
+          <ul>
+              <li>
+                  <input type="search" class="rounded-3" placeholder="Search items...">
+              </li><br>
+              <li>
+                  <button type="submit" class="search bg-pink white-space-nowrap rounded-3">Search</button>
+              </li>
+          </ul>
+      </div>
+  </div>
+  </div>
+  <hr>
+  <p class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="bi bi-c-circle" viewBox="0 0 16 16">
+          <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+      </svg> Nail Art - 2022 All rights reserved</p>
+</footer>
+</body>
+</html>
